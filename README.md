@@ -3,6 +3,8 @@ A subpar Javascript linter built in C
 
 To run the executable, use `path/to/lint <arg1> <arg2> ...` where <arg> is the path to the JS file you would like to lint. You can supply as many filepaths as you like.
 
+Note that if you apply a file that is not a JS file, the linter will proceed as if it is a JS file.
+
 # Vision
 I *really* hate Javascript for its syntax. Many text editors aren't very good at handling it either.
 The goal of this project is to implement a few linting capabilities on JS files using rudimentary syntactical analysis.
